@@ -1,4 +1,4 @@
-name = "Zen"
+name = "CouldLook-zen"
 description = "A solid base for your custom Hugo theme with pipes support for Sass and Javascript."
 homepage = "https://github.com/frjo/hugo-theme-zen"
 license = "GPLv2"
