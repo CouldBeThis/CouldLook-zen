@@ -1,3 +1,98 @@
 // stylelint-disable color-no-hex, color-named
 
 // Site custom styles
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,500;0,700;0,900;1,500&family=Arima+Madurai:wght@100;200;300;400;500;700;800;900&family=Bungee&family=Bungee+Shade&family=Cabin+Sketch:wght@400;700&family=Calistoga&family=Chonburi&family=Codystar:wght@300;400&family=Elsie+Swash+Caps:wght@400;900&family=Fascinate+Inline&family=Fredericka+the+Great&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Jacques+Francois+Shadow&family=Katibeh&family=Kurale&family=Lilita+One&family=Lily+Script+One&family=Londrina+Outline&family=Londrina+Shadow&family=Londrina+Sketch&family=Ma+Shan+Zheng&family=Major+Mono+Display&family=Megrim&family=Milonga&family=News+Cycle:wght@400;700&family=Poller+One&family=Rakkas&family=Rampart+One&family=Squada+One&family=Supermercado+One&family=Tourney:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&family=Yatra+One&family=Yeseva+One&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+
+div {
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Arima Madurai', cursive;
+    font-family: 'Bungee Shade', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Calistoga', cursive;
+    font-family: 'Chonburi', cursive;
+    font-family: 'Codystar', cursive;
+    font-family: 'Elsie Swash Caps', cursive;
+    font-family: 'Fascinate Inline', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-family: 'Katibeh', cursive;
+    font-family: 'Kurale', serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Lily Script One', cursive;
+    font-family: 'Londrina Outline', cursive;
+    font-family: 'Londrina Shadow', cursive;
+    font-family: 'Londrina Sketch', cursive;
+    font-family: 'Ma Shan Zheng', cursive;
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Megrim', cursive;
+    font-family: 'Milonga', cursive;
+    font-family: 'News Cycle', sans-serif;
+    font-family: 'Poller One', cursive;
+    font-family: 'Rakkas', cursive;
+    font-family: 'Rampart One', cursive;
+    font-family: 'Squada One', cursive;
+    font-family: 'Supermercado One', cursive;
+    font-family: 'Tourney', cursive;
+    font-family: 'VT323', monospace;
+    font-family: 'Yatra One', cursive;
+    font-family: 'Yeseva One', cursive;
+    font-family: 'Zilla Slab Highlight', cursive;
+
+}
+
+div,
+h1,
+h2,
+h3,
+th,
+nav,
+label,
+legend,
+article > header,
+.content-dates,
+.header,
+.footer {
+  @include typeface(headings);
+  color: $headings;
+  font-weight: normal;
+	zfont-family: 'IBM Plex Mono', monospace;
+    zfont-family: 'News Cycle', sans-serif;
+    zfont-family: 'Poller One', cursive;
+    zfont-family: 'Rakkas', cursive;
+    zfont-family: 'Rampart One', cursive;
+    zzfont-family: 'Squada One', cursive;
+    zzfont-family: 'Supermercado One', cursive;
+    zfont-family: 'Tourney', cursive;
+    font-family: 'VT323', monospace;
+    zfont-family: 'Yatra One', cursive;
+    zfont-family: 'Yeseva One', cursive;
+    zfont-family: 'Zilla Slab Highlight', cursive;
+    zfont-family: 'Katibeh', cursive;
+    zfont-family: 'Kurale', serif;
+    zfont-family: 'Lilita One', cursive;
+    zfont-family: 'Lily Script One', cursive;
+    zfont-family: 'Londrina Outline', cursive;
+    zfont-family: 'Londrina Shadow', cursive;
+    zfont-family: 'Londrina Sketch', cursive;
+    zfont-family: 'Ma Shan Zheng', cursive;
+    zfont-family: 'Major Mono Display', monospace;
+    zzfont-family: 'Megrim', cursive;
+    zfont-family: 'Milonga', cursive;
+    zfont-family: 'News Cycle', sans-serif;
+    zfont-family: 'Arima Madurai', cursive;
+    zfont-family: 'Bungee Shade', cursive;
+    zzfont-family: 'Bungee', cursive;
+    zfont-family: 'Cabin Sketch', cursive;
+    zfont-family: 'Calistoga', cursive;
+    zfont-family: 'Chonburi', cursive;
+    zzfont-family: 'Codystar', cursive;
+    zfont-family: 'Elsie Swash Caps', cursive;
+    zzfont-family: 'Fascinate Inline', cursive;
+    zfont-family: 'Fredericka the Great', cursive;
+    zfont-family: 'IBM Plex Mono', monospace;
+    zfont-family: 'Jacques Francois Shadow', cursive;
+}
