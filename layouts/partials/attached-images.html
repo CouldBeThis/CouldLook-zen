@@ -1,0 +1,25 @@
+ <div class="grid">
+{{ range .Resources.ByType "image" -}}
+
+<!--	<li> <img src="{{ . }}" width="50px"></li> -->
+	<!-- <li> <a href="{{ . }}">{{ . }}</a></li> -->
+
+    <div class="grid-cell"><img src="{{ . }}" zwidth="200px"></div>
+
+{{ end -}}
+  </div>
+
+
+
+
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.your-class').slick({
+        setting-name: setting-value
+      });
+    });
+  </script>
+	
+
+	<!-- <li> <img src="{{ . }}" width="50px"></li> -->

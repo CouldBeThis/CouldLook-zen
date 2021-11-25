@@ -12,6 +12,12 @@
 {{ if $.Param "relatedposts" | default false }}{{ partial "related.html" . }}{{ end -}}
 
 {{ if ne .Lastmod .Date }}{{ partial "dates.html" . }}{{ end -}}
+
+{{ if ne .Lastmod .Date }}{{ partial "dates.html" . }}{{ end -}}
+
+
+{{ partial "attached-images.html" . }}
+
 </div>
 </article>
 </main>
